@@ -1,23 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Turismo</title>
 </head>
-<body>
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.htm">Inicio</a>
-                <a href="./chalten.html">El Chaltén</a>
-                <a href="./glaciar-moreno.html">Glaciar Perito Moreno</a>
-                <a href="./torres-paine.html">Torres del Paine</a>
-                <a href="./contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
+
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/brand.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../pages/chalten.html">El Chaltén</a></li>
+                <li><a href="../pages/torres-paine.html">Torres del Paine</a></li>
+            </ul>
+        </nav>
+        <a href="../pages/contacto.html"><button>Contacto</button></a>
+    </header>
+    <main class="main">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="../images/perito-moreno.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasarelas</h5>
+                        <p class="card-text">
+                            Las pasarelas del Glaciar Perito Moreno son una atracción imprescindible en el Parque Nacional Los Glaciares, Argentina. Estas estructuras de madera ofrecen a los visitantes una vista espectacular y cercana del majestuoso frente de hielo del glaciar. Desde aquí, puedes observar y escuchar el estruendoso sonido de los desprendimientos de icebergs, sentir la frescura del aire cargado de brisa glacial y maravillarte con los tonos azules y blancos del hielo milenario. Las pasarelas permiten una experiencia inolvidable y segura para explorar la belleza natural de este lugar icónico en la Patagonia argentina.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../images/perito-moreno2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Paisaje</h5>
+                        <p class="card-text">El paisaje del Glaciar Perito Moreno es un espectáculo natural asombroso en el Parque Nacional Los Glaciares, Argentina. Aquí, un inmenso río de hielo desciende majestuosamente desde la Cordillera de los Andes hasta el Lago Argentino. Sus gigantescas paredes de hielo, que alcanzan alturas de hasta 70 metros, se destacan en tonos azules y blancos deslumbrantes. El constante crujir y estruendo de los desprendimientos de icebergs añade emoción a la escena. La belleza prístina y la magnitud de este glaciar crean un paisaje inolvidable que cautiva a los visitantes de todo el mundo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../images/perito-moreno3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Trekking</h5>
+                        <p class="card-text">El trekking en el Glaciar Perito Moreno es una experiencia inolvidable en la Patagonia argentina. Guiados por expertos, los aventureros pueden caminar sobre el hielo milenario del glaciar, equipados con crampones y cuerdas. Durante la caminata, se exploran grietas, cuevas de hielo y arroyos de agua cristalina, mientras se admira la belleza y la magnitud del glaciar desde una perspectiva única. Esta aventura ofrece una conexión cercana con la naturaleza, permitiendo a los visitantes experimentar la majestuosidad y la fragilidad de este impresionante entorno glacial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="icon">
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="../images/whatsapp.png" alt="">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../images/facebook.png" alt="">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="../images/insta.png" alt="">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
